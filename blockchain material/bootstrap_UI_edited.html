@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blockchain UI</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<style>
+	form.example button {
+		float: left;
+		width: 5%;
+		padding: 5px;
+		background: #2196F3;
+		color: white;
+		font-size: 17px;
+  		border: 1px solid grey;
+  		border-left: none;
+  		cursor: pointer;
+	}
+	form.example button:hover{
+		background: #0b7dda
+	}
+	form.example::after{
+		content: "";
+		clear: both;
+		display: table;
+	}
+</style>
+</head>
+<body>
+	<div class="jumbotron text-center">
+		 <h1 style="color:red;">Blockchain Bootstrap UI</h1>
+	</div>
+	<div class = "d-flex justify-content-center bg-secondary mb-3">
+		<form action = "blockchain_UI_response.html">
+			<label for "fname">First name:</label>
+			<input type = "text" id="fname" name="fname"><br><br>
+			<label for "lname">Last name:</label>
+			<input type = "text" id="lname" name="lname"><br><br>
+			<label for "email">Your Email:</label>
+			<input type = "email" id="email" name="email"><br><br>
+			<label for "salary">Your Salary:</label>
+			<input type="text" id="salary" name="search"><br><br>
+			<label for "file">Your Files:</label>
+			<input type = "file" id="file" name="file"><br><br>
+			<label for "file type">File Type:</label>
+			<select class="selectpicker">
+				<option>Resume</option>
+				<option>Healthcare</option>
+				<option>401k</option>
+				<option>Other</option>
+			</select><br><br>
+			<!---
+			<label for "date">Sent Date:</label>
+			<input type = "date" id="date" name="date"><br><br>
+			--->
+			<input type="submit" value="Submit">
+			
+		</form>
+	</div>
+</body>
+</html>
+<!--- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_search_button --->
+<!--- https://web.archive.org/web/20180425134632/https://silviomoreto.github.io/bootstrap-select/examples/ --->
+<!--- https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_intro --->
+<!--- https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_flex-justify&stacked=h --->
